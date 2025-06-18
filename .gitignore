@@ -1,0 +1,45 @@
+# macOS system files
+.DS_Store
+
+# Xcode user data
+*.xcuserstate
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Build products
+DerivedData/
+build/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+
+# Firebase / GoogleService
+GoogleService-Info.plist
+
+# Bundle artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# App signing
+*.mobileprovision
+*.xcarchive
+
+# Logs and cache
+*.log
+.idea/
+*.xcworkspace/xcshareddata/
